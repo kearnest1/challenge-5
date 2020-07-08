@@ -93,3 +93,12 @@ textarea{
   border-color: grey;
   display: flex;
 }
+
+.main {
+  margin: 10px;
+  border: 75px;
+  background-color: grey;
+  width: 900px;
+  height: 75px;
+  display: flex;
+}

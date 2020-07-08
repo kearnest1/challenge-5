@@ -48,13 +48,13 @@
 
 
     </header>
+    <form>
     <div class="container"class="main-container">
       <div class="row">
         <div class="col-sm-1"> <p class="left-col">
           09:00AM</p>
         </div>
-        <div class="col-sm-10"> <p class="main-col">
-          One of three columns</p>
+        <div class="col-sm-10"> <p> <input type="event" class="main" id="event1"></p>
         </div>
         <div class="col-sm-1"> <p class="right-col">
           <a class="btn btn-primary" href="#https://icon-library.net/icon/save-file-icon-5.html" role="button">Save</a></p>
@@ -64,8 +64,7 @@
         <div class="col-sm-1"> <p class="left-col">
           10:00AM</p>
         </div>
-        <div class="col-sm-10"> <p class="main-col">
-          One of three columns</p>
+        <div class="col-sm-10"> <p> <input type="event" class="main" id="event1"></p>
         </div>
         <div class="col-sm-1"> <p class="right-col">
           <a class="btn btn-primary" href="#https://icon-library.net/icon/save-file-icon-5.html" role="button">Save</a></p></p>
@@ -75,8 +74,8 @@
         <div class="col-sm-1"> <p class="left-col">
           11:00AM</p>
         </div>
-        <div class="col-sm-10"> <p class="main-col">
-          One of three columns</p>
+        <div class="col-sm-10"> <p> <input type="event" class="main" id="event1"></p>
+          </p>
         </div>
         <div class="col-sm-1"> <p class="right-col">
           <a class="btn btn-primary" href="#https://icon-library.net/icon/save-file-icon-5.html" role="button">Save</a></p></p>
@@ -86,8 +85,8 @@
         <div class="col-sm-1"> <p class="left-col">
           12:00PM</p>
         </div>
-        <div class="col-sm-10"> <p class="main-col">
-          One of three columns</p>
+        <div class="col-sm-10"> <p> <input type="event" class="main" id="event1"></p>
+          </p>
         </div>
         <div class="col-sm-1"> <p class="right-col">
           <a class="btn btn-primary" href="#https://icon-library.net/icon/save-file-icon-5.html" role="button">Save</a></p></p>
@@ -97,8 +96,8 @@
         <div class="col-sm-1"> <p class="left-col">
           01:00PM</p>
         </div>
-        <div class="col-sm-10"> <p class="main-col">
-          One of three columns</p>
+        <div class="col-sm-10"> <p> <input type="event" class="main" id="event1"></p>
+          </p>
         </div>
         <div class="col-sm-1"> <p class="right-col">
           <a class="btn btn-primary" href="#https://icon-library.net/icon/save-file-icon-5.html" role="button">Save</a></p></p>
@@ -108,8 +107,8 @@
         <div class="col-sm-1"> <p class="left-col">
           02:00PM</p>
         </div>
-        <div class="col-sm-10"> <p class="main-col">
-          One of three columns</p>
+        <div class="col-sm-10"> <p> <input type="event" class="main" id="event1"></p>
+          </p>
         </div>
         <div class="col-sm-1"> <p class="right-col">
           <a class="btn btn-primary" href="#https://icon-library.net/icon/save-file-icon-5.html" role="button">Save</a></p></p>
@@ -119,8 +118,8 @@
         <div class="col-sm-1"> <p class="left col">
           03:00PM</p>
         </div>
-        <div class="col-sm-10"> <p class="main-col">
-          One of three columns</p>
+        <div class="col-sm-10"> <p> <input type="event" class="main" id="event1"></p>
+          </p>
         </div>
         <div class="col-sm-1"> <p class="right-col">
           <a class="btn btn-primary" href="#https://icon-library.net/icon/save-file-icon-5.html" role="button">Save</a></p></p>
@@ -130,6 +129,11 @@
       </div>
       <!-- Timeblocks go here -->
     </div>
+    <var list = JSON.parse(localStorage.getItem('event')) || [];
+    var formData = JSON.stringify($("#event").serializeArray());>    
+    </form>
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
